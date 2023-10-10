@@ -11,7 +11,7 @@
 
 ## Author: 
 - Uy Vo 
-- cmiles
+- Miles Chao
 - Nestor Reategui 
 - Robin Dunne
 ## California State University, Fullerton.
