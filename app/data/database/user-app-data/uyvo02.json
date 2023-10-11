@@ -1,293 +1,75 @@
 {
-  "boardHeading": "Healthy Lifestyle Plan",
+  "boardHeading": "Fridge",
   "stacks": [
     {
-      "stackHeading": "Monday",
+      "stackHeading": "Meat",
       "cards": [
         {
-          "cardText": "Breakfast:"
+          "cardText": "Beef"
         },
         {
-          "cardText": "1 low-fat plain Greek yogurt (6oz)"
+          "cardText": "Pork"
         },
         {
-          "cardText": "¾ cup blueberries"
+          "cardText": "Chicken"
         },
         {
-          "cardText": "12 almonds or 2 tablespoons of ground flaxseed meal"
+          "cardText": "Fish"
         },
         {
-          "cardText": "Coffee with milk and a sugar substitute"
-        },
-        {
-          "cardText": "Lunch:"
-        },
-        {
-          "cardText": "1 piece of grilled chicken (4oz)"
-        },
-        {
-          "cardText": "1 whole grain wrap (substitute corn as a gluten-free option)"
-        },
-        {
-          "cardText": "Fill with onions, peppers, spinach, and ⅓ avocado"
-        },
-        {
-          "cardText": "1¼ cup of strawberries on the side"
-        },
-        {
-          "cardText": "Dinner:"
-        },
-        {
-          "cardText": "1 grilled *turkey burger (4oz)"
-        },
-        {
-          "cardText": "1 medium baked sweet potato topped with cinnamon"
-        },
-        {
-          "cardText": "1 cup spinach (sautéed with garlic and 1 teaspoon olive oil)"
-        },
-        {
-          "cardText": "Side salad with 1 tablespoon dressing"
+          "cardText": "Shirmp"
         }
       ]
     },
     {
-      "stackHeading": "Tuesday",
+      "stackHeading": "Others",
       "cards": [
         {
-          "cardText": "Breakfast:"
+          "cardText": "Eggs"
         },
         {
-          "cardText": "3 egg whites and 1 whole egg, scrambled"
+          "cardText": "Milk"
         },
         {
-          "cardText": "2 slices of whole grain bread (100% whole wheat, rye, oat or gluten-free bread)"
+          "cardText": "Chese"
         },
         {
-          "cardText": "½ cup cooked spinach"
+          "cardText": "Yogourt"
         },
         {
-          "cardText": "¼ cup low-fat shredded cheese"
+          "cardText": "Bread"
         },
         {
-          "cardText": "Lunch: Quinoa Bowl"
+          "cardText": "Cereal"
         },
         {
-          "cardText": "Skinless roasted chicken, diced (3oz)"
+          "cardText": "Beans"
         },
         {
-          "cardText": "1 cup cooked quinoa"
+          "cardText": "Nuts"
         },
         {
-          "cardText": "1 cup chopped tomatoes and carrots"
-        },
-        {
-          "cardText": "⅓ avocado or 6 olives, diced"
-        },
-        {
-          "cardText": "Dinner:"
-        },
-        {
-          "cardText": "Shrimp (4oz)"
-        },
-        {
-          "cardText": "Sauté with garlic, olive oil, and lemon"
-        },
-        {
-          "cardText": "1 cup spaghetti squash or zucchini"
-        },
-        {
-          "cardText": "½ cup herb roasted potatoes"
+          "cardText": "Vegetables"
         }
       ]
     },
     {
-      "stackHeading": "Wednesday",
+      "stackHeading": "Drink",
       "cards": [
         {
-          "cardText": "Breakfast:"
+          "cardText": "Beer"
         },
         {
-          "cardText": "1 whole grain English muffin"
+          "cardText": "Coke"
         },
         {
-          "cardText": "1 tablespoon peanut butter"
+          "cardText": "Wine"
         },
         {
-          "cardText": "¾ cup blueberries"
+          "cardText": "Fruit Juice"
         },
         {
-          "cardText": "2 slices low-sodium turkey"
-        },
-        {
-          "cardText": "Lunch: Tuna Salad"
-        },
-        {
-          "cardText": "1 can of tuna in water, drained"
-        },
-        {
-          "cardText": "1 whole grain wrap"
-        },
-        {
-          "cardText": "Mix with spinach, cucumber, carrots, ½ cup beans (if using canned, make sure to rinse)"
-        },
-        {
-          "cardText": "Dress with 1 teaspoon olive oil, vinegar, and lemon (fresh garlic and hot pepper optional)"
-        },
-        {
-          "cardText": "Dinner: Chicken and Vegetable Stir-Fry"
-        }
-      ]
-    },
-    {
-      "stackHeading": "Thursday",
-      "cards": [
-        {
-          "cardText": "Breakfast:"
-        },
-        {
-          "cardText": "1 whole grain English muffin"
-        },
-        {
-          "cardText": "1 tablespoon peanut butter"
-        },
-        {
-          "cardText": "¾ cup blueberries"
-        },
-        {
-          "cardText": "2 slices low-sodium turkey"
-        },
-        {
-          "cardText": "Lunch: Tuna Salad"
-        },
-        {
-          "cardText": "1 can of tuna in water, drained"
-        },
-        {
-          "cardText": "1 whole grain wrap"
-        },
-        {
-          "cardText": "Mix with spinach, cucumber, carrots, ½ cup beans (if using canned, make sure to rinse)"
-        },
-        {
-          "cardText": "Dress with 1 teaspoon olive oil, vinegar, and lemon (fresh garlic and hot pepper optional)"
-        },
-        {
-          "cardText": "Dinner: Chicken and Vegetable Stir-Fry"
-        }
-      ]
-    },
-    {
-      "stackHeading": "Friday",
-      "cards": [
-        {
-          "cardText": "Breakfast:"
-        },
-        {
-          "cardText": "1 whole grain English muffin"
-        },
-        {
-          "cardText": "1 tablespoon peanut butter"
-        },
-        {
-          "cardText": "¾ cup blueberries"
-        },
-        {
-          "cardText": "2 slices low-sodium turkey"
-        },
-        {
-          "cardText": "Lunch: Tuna Salad"
-        },
-        {
-          "cardText": "1 can of tuna in water, drained"
-        },
-        {
-          "cardText": "1 whole grain wrap"
-        },
-        {
-          "cardText": "Mix with spinach, cucumber, carrots, ½ cup beans (if using canned, make sure to rinse)"
-        },
-        {
-          "cardText": "Dress with 1 teaspoon olive oil, vinegar, and lemon (fresh garlic and hot pepper optional)"
-        },
-        {
-          "cardText": "Dinner: Chicken and Vegetable Stir-Fry"
-        }
-      ]
-    },
-    {
-      "stackHeading": "Saturday",
-      "cards": [
-        {
-          "cardText": "Breakfast:"
-        },
-        {
-          "cardText": "1 whole grain English muffin"
-        },
-        {
-          "cardText": "1 tablespoon peanut butter"
-        },
-        {
-          "cardText": "¾ cup blueberries"
-        },
-        {
-          "cardText": "2 slices low-sodium turkey"
-        },
-        {
-          "cardText": "Lunch: Tuna Salad"
-        },
-        {
-          "cardText": "1 can of tuna in water, drained"
-        },
-        {
-          "cardText": "1 whole grain wrap"
-        },
-        {
-          "cardText": "Mix with spinach, cucumber, carrots, ½ cup beans (if using canned, make sure to rinse)"
-        },
-        {
-          "cardText": "Dress with 1 teaspoon olive oil, vinegar, and lemon (fresh garlic and hot pepper optional)"
-        },
-        {
-          "cardText": "Dinner: Chicken and Vegetable Stir-Fry"
-        }
-      ]
-    },
-    {
-      "stackHeading": "Sunday",
-      "cards": [
-        {
-          "cardText": "Breakfast:"
-        },
-        {
-          "cardText": "1 whole grain English muffin"
-        },
-        {
-          "cardText": "1 tablespoon peanut butter"
-        },
-        {
-          "cardText": "¾ cup blueberries"
-        },
-        {
-          "cardText": "2 slices low-sodium turkey"
-        },
-        {
-          "cardText": "Lunch: Tuna Salad"
-        },
-        {
-          "cardText": "1 can of tuna in water, drained"
-        },
-        {
-          "cardText": "1 whole grain wrap"
-        },
-        {
-          "cardText": "Mix with spinach, cucumber, carrots, ½ cup beans (if using canned, make sure to rinse)"
-        },
-        {
-          "cardText": "Dress with 1 teaspoon olive oil, vinegar, and lemon (fresh garlic and hot pepper optional)"
-        },
-        {
-          "cardText": "Dinner: Chicken and Vegetable Stir-Fry"
+          "cardText": "Ice"
         }
       ]
     }
