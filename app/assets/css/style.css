@@ -98,6 +98,56 @@
     animation: moving2 8s linear infinite;
   }
 
+/* Homepage */
+
+.homepage {
+    background-color: #33b5e5
+}
+
+
+.homepage h1, h2, p {
+    text-align: center;
+    margin: 10px;
+}
+
+.homepage img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+}
+
+.homepage details {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    max-width: 200px;
+    max-height: 400px;
+    margin: 30px;
+}
+
+.homepage summary {
+    text-align: center;
+    margin: -0.5em -0.5em;
+    padding: 0.5em;
+}
+
+.example-items {
+    font-weight: bold;
+}
+
+/* Homepage */
+
 
 @keyframes moving1 {
     0% {
