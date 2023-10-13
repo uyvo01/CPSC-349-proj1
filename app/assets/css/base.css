@@ -74,3 +74,113 @@ body {
   height: 100vh;
   font-family: "Work Sans", sans-serif;
 }
+
+.ball1 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #c00;
+  position: relative;
+  animation: moving1 8s linear infinite;
+}
+.ball2 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #c00;
+  position: relative;
+  animation: moving2 8s linear infinite;
+}
+
+
+@keyframes moving1 {
+  0% {
+      top: 0;
+      left:0;
+
+  }
+  25% {
+      top: 0;
+      left:90%;
+      background: cyan;
+  }
+  50% {
+      top: 80%;
+      left:90%;
+      background: green;
+  }
+  75% {
+      top: 80%;
+      left:0%;
+      background: yellow;
+  }
+  100% {
+      top: 0;
+      left:0;
+      background: black;
+  }
+}
+
+@keyframes moving2 {
+  0% {
+      top: 0;
+      left:0;
+
+  }
+  25% {
+      top: 80%;
+      left:0%;
+      background: cyan;
+  }
+  50% {
+      top: 80%;
+      left:90%;
+      background: green;
+  }
+  75% {
+      top: 0%;
+      left:90%;
+      background: yellow;
+  }
+  100% {
+      top: 0;
+      left:0;
+      background: black;
+  }
+}
+table {
+  width: 100%;
+  align-content: center;
+}
+td {
+  width: 50%;
+  padding: 5;
+}
+
+@keyframes moving3 {
+  0% {
+      top: 0;
+      left:0;
+
+  }
+  25% {
+      top: 0;
+      left:90%;
+      background: cyan;
+  }
+  50% {
+      top: 100%;
+      left:90%;
+      background: green;
+  }
+  75% {
+      top: 80%;
+      left:0%;
+      background: yellow;
+  }
+  100% {
+      top: 0;
+      left:0;
+      background: black;
+  }
+}

@@ -55,6 +55,7 @@
 .stack__text {
   font-size: 18px;
   font-weight: 500;
+  
 }
 .stack__new {
   display: flex;
@@ -116,7 +117,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: #FFF;
+  background-color: #33b5e5;
   border-radius: 5px;
   color: #536988;
   margin-top: 10px;
@@ -124,15 +125,23 @@
 }
 .card:hover {
   cursor: pointer;
-  background-color: #F2F6FA;
+  background-color: orange;
 }
 .card:nth-child(1) {
   margin-top: 15px;
+}
+.card__head {
+  flex-shrink: 1;
+  margin: 1rem 0.25rem 1rem 1rem;
+  line-height: 1.4em;
+  background-color: #33b5e5;
 }
 .card__text {
   flex-shrink: 1;
   margin: 1rem 0.25rem 1rem 1rem;
   line-height: 1.4em;
+  color:white;
+
 }
 .card__drag {
   flex-shrink: 0;

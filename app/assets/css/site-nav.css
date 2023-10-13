@@ -19,7 +19,7 @@
   flex-shrink: 0;
   display: flex;
   height: 72px;
-  background-color: #0C2635;
+  background-color: #33b5e5;
   color: #fff;
 }
 .nav__user {
@@ -30,7 +30,7 @@
 }
 .nav__button {
   margin-left: 1rem;
-  width: 90px;
+  width: 100px;
   height: 46px;
   line-height: 46px;
   background-color: #113346;
@@ -39,5 +39,6 @@
 }
 .nav__button:hover {
   cursor: pointer;
-  opacity: 0.5;
+
+  background-color: orange;
 }

@@ -1,0 +1,16 @@
+<h1>Fridge Contents</h1>
+
+<div array key="stacks">
+ {{#for stack in stacks}}
+ <div object key:stack-heading="@search">
+  <h1 target:stack-heading="@innerText">{{stack.stackHeading}}</h1>
+  <div array key="cards">
+   {{#for card in stack.cards}}
+   <div object key:card-text="@search">
+    <div target:card-text="@innerText">{{card.cardText}}</div>
+   </div>
+   {{/for}}
+  </div>
+ </div>
+ {{/for}}
+</div>
