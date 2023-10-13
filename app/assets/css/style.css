@@ -98,6 +98,22 @@
     animation: moving2 8s linear infinite;
   }
 
+
+.fridgeContent h1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.fridgeContent p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
 /* Homepage */
 
 .homepage {
@@ -147,6 +163,8 @@
 }
 
 /* Homepage */
+
+
 
 
 @keyframes moving1 {

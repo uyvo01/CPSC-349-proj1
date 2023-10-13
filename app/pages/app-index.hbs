@@ -1,9 +1,10 @@
+<body>
 <div class="header">
   <div 
     class="header__text"
     object
     key:board-heading="@innerText"
-    default:board-heading="My Projects"
+    default:board-heading="Fridge"
     edit:board-heading:without-remove
   >{{boardHeading}}</div>
   <button 
@@ -11,6 +12,36 @@
     new:stack
   >Add category</button>
 </div>
+<script>
+  const xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+const yValues = [55, 49, 44, 24, 15];
+const barColors = [
+  "#b91d47",
+  "#00aba9",
+  "#2b5797",
+  "#e8c3b9",
+  "#1e7145"
+];
+
+new Chart("myChart", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "World Wide Wine Production 2018"
+    }
+  }
+});
+</script>
+
+
 <div class="board-container">
   <div 
     class="board"
@@ -43,7 +74,7 @@
           key="cards"
           array
           sortable="cards"
-        >
+        >   
           {{#for card in stack.cards}}
             <div 
               class="card"
@@ -71,3 +102,12 @@
     {{/for}}
   </div>
 </div>
+
+<script>
+  let refresh = document.querySelectorAll("button");
+  refresh.addEventListener("click", function() {
+    location.reload();
+  });
+</script>
+
+</body>
