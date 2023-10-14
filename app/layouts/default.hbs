@@ -1,76 +1,76 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kanban App</title>
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="/assets/css/_remake.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/base.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/accounts.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/flash.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/site-nav.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/text-field.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/front-page.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/kanban.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Kanban App</title>
+ <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico">
+ <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="/assets/css/_remake.css">
+ <link rel="stylesheet" type="text/css" href="/assets/css/base.css">
+ <link rel="stylesheet" type="text/css" href="/assets/css/accounts.css">
+ <link rel="stylesheet" type="text/css" href="/assets/css/flash.css">
+ <link rel="stylesheet" type="text/css" href="/assets/css/site-nav.css">
+ <link rel="stylesheet" type="text/css" href="/assets/css/text-field.css">
+ <link rel="stylesheet" type="text/css" href="/assets/css/front-page.css">
+ <link rel="stylesheet" type="text/css" href="/assets/css/kanban.css">
+ <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
 </head>
+
 <body>
-  <div class="container">
-    <div class="nav">
-      <a class="logo" href="{{#if currentUser}}/{{currentUser.details.username}}{{else}}/{{/if}}">
-        <img class="logo__image" src="/assets/images/fridge.svg">
-        <span class="logo__text">Food in the Fridge <span class="logo__version"></span></span>
-      </a>
-      {{#if currentUser}}
-        <div class="nav__user">
-          <a class="nav__button" href="introduction">Home page</a>
-          <a class="nav__button" href="healthyplan">Healthy plan</a>
-          <a class="nav__button" href="contactus">Contact us</a>
-          <a class="nav__button" href="/{{currentUser.details.username}}/dashboard">Dashboard</a>
-          <a class="nav__button" href="/{{currentUser.details.username}}/fridge">Fridge</a>
-          <a class="nav__button" href="consume">Consume</a>
-        </div>
-      {{else}}
-        <div class="nav__user">
-          <a class="nav__button" href="introduction">Home page</a>
-          <a class="nav__button" href="healthyplan">Healthy plan</a>
-          <a class="nav__button" href="contactus">Contact us</a>
-        </div>
-      {{/if}}
-      {{#if currentUser}}
-        <div class="nav__user">
-          <div>{{currentUser.details.username}}</div>
-          <a class="nav__button" href="/user/logout">Logout</a>
-        </div>
-      {{else}}
-        <div class="nav__user">
-          <a class="nav__button" href="/user/signup">Sign up</a>
-          <a class="nav__button" href="/user/login">Log in</a>
-        </div>
-      {{/if}}
-    </div>
-    {{#if flashErrors }}
-      {{#each flashErrors }}
-        <div class="flash flash--error">{{ this }}</div>
-      {{/each}}
-    {{/if}}
-    {{#if flashSuccesses }}
-      {{#each flashSuccesses }}
-        <div class="flash flash--success">{{ this }}</div>
-      {{/each}}
-    {{/if}}
-    {{> yield }}
+ <div class="container">
+  <div class="nav">
+   <a class="logo" href="{{#if currentUser}}/{{currentUser.details.username}}{{else}}/{{/if}}">
+    <img class="logo__image" src="/assets/images/fridge.jpg" style="width: 50px; border-radius: 8px 15px 12px">
+    <span class="logo__text">Food in the Fridge <span class="logo__version"></span></span>
+   </a>
+   {{#if currentUser}}
+   <div class="nav__user">
+    <a class="nav__button" href="introduction">Home page</a>
+    <a class="nav__button" href="healthyplan">Healthy plan</a>
+    <a class="nav__button" href="/{{currentUser.details.username}}/dashboard">Dashboard</a>
+    <a class="nav__button" href="/{{currentUser.details.username}}/fridge">Fridge</a>
+   </div>
+   {{else}}
+   <div class="nav__user">
+    <a class="nav__button" href="introduction">Home page</a>
+    <a class="nav__button" href="healthyplan">Healthy plan</a>
+   </div>
+   {{/if}}
+   {{#if currentUser}}
+   <div class="nav__user">
+    <div>{{currentUser.details.username}}</div>
+    <a class="nav__button" href="/user/logout">Logout</a>
+   </div>
+   {{else}}
+   <div class="nav__user">
+    <a class="nav__button" href="/user/signup">Sign up</a>
+    <a class="nav__button" href="/user/login">Log in</a>
+   </div>
+   {{/if}}
   </div>
-  {{#if isPageAuthor}}
-    {{!-- Don't load Remake framework if the page isn't editable --}}
-    <script src="/assets/js/vendor/Sortable.min.js"></script>
-    <script src="/assets/js/vendor/crostini.min.js"></script>
-    <script src="/remake/js/remake.min.js"></script>
-    <script src="/assets/js/remake-init.js"></script>
+  {{#if flashErrors }}
+  {{#each flashErrors }}
+  <div class="flash flash--error">{{ this }}</div>
+  {{/each}}
   {{/if}}
-  <script src="/assets/js/main.js"></script>
+  {{#if flashSuccesses }}
+  {{#each flashSuccesses }}
+  <div class="flash flash--success">{{ this }}</div>
+  {{/each}}
+  {{/if}}
+  {{> yield }}
+ </div>
+ {{#if isPageAuthor}}
+ {{!-- Don't load Remake framework if the page isn't editable --}}
+ <script src="/assets/js/vendor/Sortable.min.js"></script>
+ <script src="/assets/js/vendor/crostini.min.js"></script>
+ <script src="/remake/js/remake.min.js"></script>
+ <script src="/assets/js/remake-init.js"></script>
+ {{/if}}
+ <script src="/assets/js/main.js"></script>
 </body>
+
 </html>

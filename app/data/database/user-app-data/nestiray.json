@@ -1,0 +1,207 @@
+{
+  "boardHeading": "Fridge Content",
+  "stacks": [
+    {
+      "stackHeading": "Meat",
+      "cards": [
+        {
+          "cardText": "Beef"
+        },
+        {
+          "cardText": "Pork"
+        },
+        {
+          "cardText": "Chicken"
+        },
+        {
+          "cardText": "Fish"
+        },
+        {
+          "cardText": "Shirmp"
+        }
+      ]
+    },
+    {
+      "stackHeading": "Others",
+      "cards": [
+        {
+          "cardText": "Eggs"
+        },
+        {
+          "cardText": "Milk"
+        },
+        {
+          "cardText": "Chese"
+        },
+        {
+          "cardText": "Yogourt"
+        },
+        {
+          "cardText": "Bread"
+        },
+        {
+          "cardText": "Cereal"
+        },
+        {
+          "cardText": "Beans"
+        },
+        {
+          "cardText": "Nuts"
+        },
+        {
+          "cardText": "Vegetables"
+        }
+      ]
+    },
+    {
+      "stackHeading": "Drink",
+      "cards": [
+        {
+          "cardText": "Coke"
+        },
+        {
+          "cardText": "Wine"
+        },
+        {
+          "cardText": "Fruit Juice"
+        },
+        {
+          "cardText": "Ice"
+        }
+      ]
+    },
+    {
+      "stackHeading": "New stack item",
+      "cards": [
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        }
+      ]
+    },
+    {
+      "stackHeading": "New stack item",
+      "cards": [
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        }
+      ]
+    },
+    {
+      "stackHeading": "New stack item",
+      "cards": [
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        }
+      ]
+    },
+    {
+      "stackHeading": "New stack item",
+      "cards": [
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        }
+      ]
+    },
+    {
+      "stackHeading": "New stack item",
+      "cards": [
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        }
+      ]
+    },
+    {
+      "stackHeading": "New stack item",
+      "cards": [
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        }
+      ]
+    },
+    {
+      "stackHeading": "New stack item",
+      "cards": [
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        }
+      ]
+    },
+    {
+      "stackHeading": "New stack item",
+      "cards": [
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        }
+      ]
+    },
+    {
+      "stackHeading": "New stack item",
+      "cards": [
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        }
+      ]
+    }
+  ],
+  "id": "pTjdkgWaMfiyzh"
+}

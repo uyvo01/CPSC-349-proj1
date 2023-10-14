@@ -1,260 +1,307 @@
 /* -----Fly header anamination ----*/
 @keyframes flyheader {
-    from {
-        margin-left: 100%;
-    }
-    to {
-        margin-left: 0%;
-    }
+ from {
+  margin-left: 100%;
+ }
+
+ to {
+  margin-left: 0%;
+ }
 }
+
 @keyframes changecolor {
-    from {
-      background-color: #0099cc
-    }
-    to { background-color: orange;
-  
-    }
+ from {
+  background-color: #0099cc
+ }
+
+ to {
+  background-color: orange;
+
+ }
 }
+
 /* -----End fly header anamination ----*/
 
 /*------Container----------------------*/
 .boxcontainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 1px;
-    order:4;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ flex-flow: row wrap;
+ justify-content: space-between;
+ align-items: center;
+ column-gap: 1px;
+ order: 4;
 }
+
 /*------Box of contact-----------------*/
-.boxcontact{
-    width :15%;
-    display: flex;
-    border: none;
-    background-color: #33b5e5;
-    margin: 50px auto;
-    margin-bottom: 5px;
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 10px;
-    inline-size: 250px;
-    overflow-wrap: break-word;
+.boxcontact {
+ width: 15%;
+ display: flex;
+ border: none;
+ background-color: #33b5e5;
+ margin: 50px auto;
+ margin-bottom: 5px;
+ padding-top: 10px;
+ padding-left: 0px;
+ padding-right: 0px;
+ padding-bottom: 10px;
+ inline-size: 250px;
+ overflow-wrap: break-word;
 }
 
-.boxcontact:hover{
-    background-color: orange;
+.boxcontact:hover {
+ background-color: orange;
 }
 
-.box{
-    width:30%;
-    height: 30%;
-    border: 2px solid black;
-    background-color: #0099cc;
-    margin: 100px auto;
-    inline-size: 150px;
-    overflow-wrap: break-word;
+.box {
+ width: 30%;
+ height: 30%;
+ border: 2px solid black;
+ background-color: #0099cc;
+ margin: 100px auto;
+ inline-size: 150px;
+ overflow-wrap: break-word;
 }
+
 .title1 {
-    font-size: 15pt;
-    font-weight:bold;
-    color: white;
-    padding: 10px;
-    margin-top: 0px;
+ font-size: 15pt;
+ font-weight: bold;
+ color: white;
+ padding: 10px;
+ margin-top: 0px;
 }
+
 /*------End of contact box------*/
 /*------ Dashboard ------------*/
-  .dashboardcontainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 1px;
-    order:2;
+.dashboardcontainer {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ flex-flow: row wrap;
+ justify-content: space-between;
+ align-items: center;
+ column-gap: 1px;
+ order: 2;
 }
-.boxdashboard{
-    width :15%;
-    display: flex;
-    border: none;
-    background-color: #33b5e5;
-    margin: 50px auto;
-    margin-bottom: 5px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    inline-size: 250px;
-    overflow-wrap: break-word;
+
+.boxdashboard {
+ width: 15%;
+ display: flex;
+ border: none;
+ background-color: #33b5e5;
+ margin: 50px auto;
+ margin-bottom: 5px;
+ padding-top: 10px;
+ padding-left: 10px;
+ padding-bottom: 10px;
+ inline-size: 250px;
+ overflow-wrap: break-word;
 
 }
+
 /* -----End of dashboard---------*/
 /* Homepage */
 
-.homepage {
-    background-color: #33b5e5;
-    margin: 50px auto;
+.summary {
+ display: flex;
+ flex-direction: row;
+}
+
+.summary-items {
+ flex: 1;
+ margin: 10px;
 }
 
 
-.homepage h1, h2, p {
-    text-align: center;
-    margin: 10px;
+.homepage {
+ background-color: peachpuff;
+ margin: 50px auto;
+}
+
+
+.homepage h1,
+h2,
+p {
+ text-align: center;
+ margin: 10px;
 }
 
 .homepage img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    width: 200px;
-    height: 200px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 25px;
+ width: 200px;
+ height: 200px;
 }
 
 .summary {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: auto;
-    height: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ width: auto;
+ height: auto;
 }
 
 .homepage details {
-    border: 1px solid black;
-    padding: 10px;
-    background-color: white;
-    max-width: 200px;
-    max-height: auto;
-    margin: 30px;
-    line-height: 2;
+ border: 1px solid black;
+ padding: 10px;
+ background-color: white;
+ max-width: 200px;
+ max-height: auto;
+ margin: 30px;
+ line-height: 2;
 }
-.homepage details:hover{
-    background-color: orange;
+
+.homepage details:hover {
+ background-color: orange;
 }
+
 .homepage summary {
-    text-align: center;
-    margin: -0.5em -0.5em;
-    padding: 0.5em;
+ text-align: center;
+ margin: -0.5em -0.5em;
+ padding: 0.5em;
 }
 
 .example-items {
-    font-weight: bold;
+ font-weight: bold;
 }
 
 /* Homepage */
 
 /* Running balls */
 .ball1 {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background: #c00;
-    margin: 75px auto;
-    margin-right: 10px;
-    position:absolute;
-    animation: moving1 8s linear infinite;
-  }
-.ball2 {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin: 75px auto;
-    margin-right: 10px;
-    background: #c00;
-    position: absolute;
-    animation: moving2 8s linear infinite;
-  }
-@keyframes moving1 {
-    0% {
-        top: 0;
-        left:0;
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
+ background: #c00;
+ margin: 75px auto;
+ margin-right: 10px;
+ position: absolute;
+ animation: moving1 8s linear infinite;
+}
 
-    }
-    25% {
-        top: 0;
-        left:96%;
-        background: cyan;
-    }
-    50% {
-        top: 80%;
-        left:96%;
-        background: green;
-    }
-    75% {
-        top: 80%;
-        left:0%;
-        background: yellow;
-    }
-    100% {
-        top: 0;
-        left:0;
-        background: black;
-    }
+.ball2 {
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
+ margin: 75px auto;
+ margin-right: 10px;
+ background: #c00;
+ position: absolute;
+ animation: moving2 8s linear infinite;
+}
+
+@keyframes moving1 {
+ 0% {
+  top: 0;
+  left: 0;
+
+ }
+
+ 25% {
+  top: 0;
+  left: 96%;
+  background: cyan;
+ }
+
+ 50% {
+  top: 80%;
+  left: 96%;
+  background: green;
+ }
+
+ 75% {
+  top: 80%;
+  left: 0%;
+  background: yellow;
+ }
+
+ 100% {
+  top: 0;
+  left: 0;
+  background: black;
+ }
 }
 
 @keyframes moving2 {
-    0% {
-        top: 0;
-        left:0;
+ 0% {
+  top: 0;
+  left: 0;
 
-    }
-    25% {
-        top: 80%;
-        left:0%;
-        background: cyan;
-    }
-    50% {
-        top: 80%;
-        left:96%;
-        background: green;
-    }
-    75% {
-        top: 0%;
-        left:96%;
-        background: yellow;
-    }
-    100% {
-        top: 0;
-        left:0;
-        background: black;
-    }
+ }
+
+ 25% {
+  top: 80%;
+  left: 0%;
+  background: cyan;
+ }
+
+ 50% {
+  top: 80%;
+  left: 96%;
+  background: green;
+ }
+
+ 75% {
+  top: 0%;
+  left: 96%;
+  background: yellow;
+ }
+
+ 100% {
+  top: 0;
+  left: 0;
+  background: black;
+ }
 }
+
+.boxcontact ul p {
+ text-align: left;
+}
+
 table {
-    width: 100%;
-    align-content: center;
+ width: 100%;
+ align-content: center;
 }
+
 td {
-    width: 50%;
-    padding: 5;
+ width: 50%;
+ padding: 5;
 }
 
 @keyframes moving3 {
-    0% {
-        top: 0;
-        left:0;
+ 0% {
+  top: 0;
+  left: 0;
 
-    }
-    25% {
-        top: 0;
-        left:90%;
-        background: cyan;
-    }
-    50% {
-        top: 100%;
-        left:90%;
-        background: green;
-    }
-    75% {
-        top: 80%;
-        left:0%;
-        background: yellow;
-    }
-    100% {
-        top: 0;
-        left:0;
-        background: black;
-    }
+ }
+
+ 25% {
+  top: 0;
+  left: 90%;
+  background: cyan;
+ }
+
+ 50% {
+  top: 100%;
+  left: 90%;
+  background: green;
+ }
+
+ 75% {
+  top: 80%;
+  left: 0%;
+  background: yellow;
+ }
+
+ 100% {
+  top: 0;
+  left: 0;
+  background: black;
+ }
 }
+
+
 /*----End of running balls----*/
