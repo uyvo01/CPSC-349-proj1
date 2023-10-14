@@ -27,14 +27,16 @@
       {{#if currentUser}}
         <div class="nav__user">
           <a class="nav__button" href="introduction">Home page</a>
+          <a class="nav__button" href="healthyplan">Healthy plan</a>
           <a class="nav__button" href="contactus">Contact us</a>
-          <a class="nav__button" href="dashboard">Dashboard</a>
-          <a class="nav__button" href="/{{currentUser.details.username}}">Fridge</a>
+          <a class="nav__button" href="/{{currentUser.details.username}}/dashboard">Dashboard</a>
+          <a class="nav__button" href="/{{currentUser.details.username}}/fridge">Fridge</a>
           <a class="nav__button" href="consume">Consume</a>
         </div>
       {{else}}
         <div class="nav__user">
           <a class="nav__button" href="introduction">Home page</a>
+          <a class="nav__button" href="healthyplan">Healthy plan</a>
           <a class="nav__button" href="contactus">Contact us</a>
         </div>
       {{/if}}

@@ -1,8 +1,7 @@
 {
-  "boardHeading": "Fridge",
+  "boardHeading": "Fridge Content",
   "stacks": [
     {
-      "stackHeading": "Meat",
       "cards": [
         {
           "cardText": "Beef"
@@ -15,14 +14,11 @@
         },
         {
           "cardText": "Fish"
-        },
-        {
-          "cardText": "Shirmp"
         }
-      ]
+      ],
+      "stackHeading": "Meat"
     },
     {
-      "stackHeading": "Others",
       "cards": [
         {
           "cardText": "Eggs"
@@ -51,10 +47,10 @@
         {
           "cardText": "Vegetables"
         }
-      ]
+      ],
+      "stackHeading": "Others"
     },
     {
-      "stackHeading": "Drink",
       "cards": [
         {
           "cardText": "Beer"
@@ -71,7 +67,19 @@
         {
           "cardText": "Ice"
         }
-      ]
+      ],
+      "stackHeading": "Drink"
+    },
+    {
+      "cards": [
+        {
+          "cardText": "Salad"
+        },
+        {
+          "cardText": "Carrot"
+        }
+      ],
+      "stackHeading": "Vegetables"
     }
   ],
   "id": "pTjdkgWaMfiyzh"
