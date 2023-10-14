@@ -1,4 +1,4 @@
-/* -----Fly header anamination ----*/
+
 @keyframes flyheader {
     from {
         margin-left: 100%;
@@ -15,20 +15,16 @@
   
     }
 }
-/* -----End fly header anamination ----*/
-
-/*------Container----------------------*/
 .boxcontainer {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowra p;
+    flex-wrap: nowrap;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     column-gap: 1px;
     order:4;
 }
-/*------Box of contact-----------------*/
 .boxcontact{
     width :15%;
     display: flex;
@@ -37,36 +33,14 @@
     margin: 50px auto;
     margin-bottom: 5px;
     padding-top: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 10px;
     padding-bottom: 10px;
     inline-size: 250px;
     overflow-wrap: break-word;
+
 }
 
-.boxcontact:hover{
-    background-color: orange;
-}
-
-.box{
-    width:30%;
-    height: 30%;
-    border: 2px solid black;
-    background-color: #0099cc;
-    margin: 100px auto;
-    inline-size: 150px;
-    overflow-wrap: break-word;
-}
-.title1 {
-    font-size: 15pt;
-    font-weight:bold;
-    color: white;
-    padding: 10px;
-    margin-top: 0px;
-}
-/*------End of contact box------*/
-/*------ Dashboard ------------*/
-  .dashboardcontainer {
+.dashboardcontainer {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -90,12 +64,60 @@
     overflow-wrap: break-word;
 
 }
-/* -----End of dashboard---------*/
+.box{
+    width:30%;
+    height: 30%;
+    border: 2px solid black;
+    background-color: #0099cc;
+    margin: 100px auto;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+}
+.title1 {
+    font-size: 15pt;
+    font-weight:bold;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.ball1 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #c00;
+    position: relative;
+    animation: moving1 8s linear infinite;
+  }
+.ball2 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #c00;
+    position: relative;
+    animation: moving2 8s linear infinite;
+  }
+
+
+.fridgeContent h1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.fridgeContent p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
 /* Homepage */
 
 .homepage {
-    background-color: #33b5e5;
-    margin: 50px auto;
+    background-color: #33b5e5
 }
 
 
@@ -115,7 +137,7 @@
 
 .summary {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     width: auto;
     height: auto;
@@ -126,13 +148,10 @@
     padding: 10px;
     background-color: white;
     max-width: 200px;
-    max-height: auto;
+    max-height: 400px;
     margin: 30px;
-    line-height: 2;
 }
-.homepage details:hover{
-    background-color: orange;
-}
+
 .homepage summary {
     text-align: center;
     margin: -0.5em -0.5em;
@@ -145,27 +164,9 @@
 
 /* Homepage */
 
-/* Running balls */
-.ball1 {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background: #c00;
-    margin: 75px auto;
-    margin-right: 10px;
-    position:absolute;
-    animation: moving1 8s linear infinite;
-  }
-.ball2 {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin: 75px auto;
-    margin-right: 10px;
-    background: #c00;
-    position: absolute;
-    animation: moving2 8s linear infinite;
-  }
+
+
+
 @keyframes moving1 {
     0% {
         top: 0;
@@ -174,12 +175,12 @@
     }
     25% {
         top: 0;
-        left:96%;
+        left:90%;
         background: cyan;
     }
     50% {
         top: 80%;
-        left:96%;
+        left:90%;
         background: green;
     }
     75% {
@@ -207,12 +208,12 @@
     }
     50% {
         top: 80%;
-        left:96%;
+        left:90%;
         background: green;
     }
     75% {
         top: 0%;
-        left:96%;
+        left:90%;
         background: yellow;
     }
     100% {
@@ -257,4 +258,3 @@ td {
         background: black;
     }
 }
-/*----End of running balls----*/

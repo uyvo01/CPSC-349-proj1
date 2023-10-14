@@ -1,0 +1,109 @@
+{
+  "boardHeading": "Fridge",
+  "stacks": [
+    {
+      "stackHeading": "Meat",
+      "cards": [
+        {
+          "cardText": "meat"
+        },
+        {
+          "cardText": "poo"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "popo2"
+        }
+      ]
+    },
+    {
+      "stackHeading": "Others",
+      "cards": [
+        {
+          "cardText": "Milk"
+        },
+        {
+          "cardText": "Yogourt"
+        },
+        {
+          "cardText": "Cereal"
+        },
+        {
+          "cardText": "Beans"
+        },
+        {
+          "cardText": "Nuts"
+        },
+        {
+          "cardText": "Vegetables"
+        },
+        {
+          "cardText": "poop2"
+        },
+        {
+          "cardText": "New card item"
+        }
+      ]
+    },
+    {
+      "stackHeading": "Drinks",
+      "cards": [
+        {
+          "cardText": "water"
+        },
+        {
+          "cardText": "soda"
+        },
+        {
+          "cardText": "water flavor"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        },
+        {
+          "cardText": "New card item"
+        }
+      ]
+    },
+    {
+      "stackHeading": "New stack item",
+      "cards": []
+    }
+  ],
+  "id": "pTjdkgWaMfiyzh"
+}

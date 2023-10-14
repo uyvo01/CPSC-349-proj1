@@ -12,9 +12,20 @@
     new:stack
   >Add category</button>
 </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<canvas id="myChart" style="width:100%;max-width:600px;display:flex;justify-content:center;"></canvas>
 <script>
-  const xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
-const yValues = [55, 49, 44, 24, 15];
+  const xValues = [];
+{{#each stacks}}
+xValues.push("{{this.stackHeading}}");
+
+{{/each}}
+const yValues = [];
+{{#each stacks}}
+yValues.push("{{cards.length}}")
+{{/each}}
+
 const barColors = [
   "#b91d47",
   "#00aba9",
@@ -35,7 +46,7 @@ new Chart("myChart", {
   options: {
     title: {
       display: true,
-      text: "World Wide Wine Production 2018"
+      text: "Items in your fridge"
     }
   }
 });
